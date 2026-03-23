@@ -5,7 +5,6 @@ Here’s your README with a clean citation section and BibTeX added:
 # 📡 Graph-State-Generation-Project
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](#license)
 [![Status](https://img.shields.io/badge/Status-Research-orange.svg)]()
 
 This repository contains the complete code used in the paper:
