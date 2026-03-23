@@ -1,4 +1,4 @@
-Here’s your README with a clean citation section and BibTeX added:
+Please read the following before using the code:
 
 ---
 
