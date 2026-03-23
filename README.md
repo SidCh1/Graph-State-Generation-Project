@@ -85,7 +85,7 @@ calculate_gates_bell_paris_main.py
 Provides functions to:
 
 * Perform gate and Bell-pair analysis
-* Generate plots used in the paper 
+* Generate plots used in the paper except for Bell-pair sources.
 
 ---
 
