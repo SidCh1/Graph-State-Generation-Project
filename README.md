@@ -8,7 +8,7 @@ Here’s your README with a clean citation section and BibTeX added:
 [![Status](https://img.shields.io/badge/Status-Research-orange.svg)]()
 
 This repository contains the complete code used in the paper:
-🔗 [[https://arxiv.org/abs/xx](https://arxiv.org/abs/2412.04252)]
+🔗 [[https://arxiv.org/abs/2412.04252](https://arxiv.org/abs/2412.04252)]
 
 ---
 
