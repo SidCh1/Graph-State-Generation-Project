@@ -1,103 +1,160 @@
-# Graph-State-Generation-Project
-This is the complete code for the paper: https://arxiv.org/abs/2412.04252
-
-# Networkx and standard python libraries are used.
-
-
-# How to use this code?
-
-First all files should be in same directory. 
-
-The file calculate_gates_bell_paris_main.py contains all the functions required to get data and plots that are shown in the paper that has gates and bell pair analysis. The file Run_statistics.ipynb must be opened and run. That will create all the data. 
-
-For Bell pair sources, you have to run the following files. ER is for erdos renyi and BA is for barabasi albert. 
-
-Bell_Pair_Sources_fix_P_ER.py
-
-Bell_Pair_Sources_fix_C_BA.py
-
-We have also studied using Bell pairs or GHZs as building blocks in star topology. That can be found in the file Bell_Pair_vs_GHZ_Building_Block.py
-
-
-Here’s a cleaner, well-formatted version suitable for a GitHub README (`.md`) file:
+Here’s your README with a clean citation section and BibTeX added:
 
 ---
 
-# Graph-State-Generation-Project
+# 📡 Graph-State-Generation-Project
+
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](#license)
+[![Status](https://img.shields.io/badge/Status-Research-orange.svg)]()
 
 This repository contains the complete code used in the paper:
-🔗 [https://arxiv.org/abs/xx](https://arxiv.org/abs/xx)
+🔗 [[https://arxiv.org/abs/xx](https://arxiv.org/abs/2412.04252)]
 
 ---
 
-## 📦 Dependencies
+## 📦 Installation
 
-The project uses:
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/Graph-State-Generation-Project.git
+cd Graph-State-Generation-Project
+```
+
+Install required dependencies:
+
+```bash
+pip install networkx matplotlib numpy jupyter
+```
+
+---
+
+## 🧰 Dependencies
 
 * `networkx`
+* `numpy`
+* `matplotlib`
+* `jupyter`
 * Standard Python libraries
 
-Make sure these are installed before running the code.
+---
+
+## 📁 Project Structure
+
+```
+.
+├── calculate_gates_bell_paris_main.py   # Core functions for data & plots
+├── Run_statistics.ipynb                 # Main notebook to generate results
+├── Bell_Pair_Sources_fix_P_ER.py        # ER (Erdős–Rényi) simulations
+├── Bell_Pair_Sources_fix_C_BA.py        # BA (Barabási–Albert) simulations
+├── Bell_Pair_vs_GHZ_Building_Block.py   # Bell vs GHZ (star topology)
+└── README.md
+```
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Usage
 
-1. Ensure that **all files are placed in the same directory**.
-2. Open and run the notebook:
+### 1. Setup
 
-   ```
-   Run_statistics.ipynb
-   ```
+Ensure all files are in the **same directory**.
 
-   This will generate all the datasets used in the paper.
+### 2. Generate Data
+
+Run the notebook:
+
+```bash
+jupyter notebook Run_statistics.ipynb
+```
+
+This will:
+
+* Generate all datasets
+* Reproduce figures from the paper
 
 ---
 
-## 📊 Main Script
+## 📊 Core Functionality
 
-The file:
+The main script:
 
 ```
 calculate_gates_bell_paris_main.py
 ```
 
-contains all the core functions required to:
+Provides functions to:
 
-* Generate data
-* Reproduce plots from the paper
-* Perform gate and Bell pair analysis
+* Perform gate analysis
+* Simulate Bell pair generation
+* Generate plots used in the paper
 
 ---
 
 ## 🔗 Bell Pair Source Simulations
 
-To simulate Bell pair sources, run the following scripts:
+### Erdős–Rényi (ER)
 
-* **Erdős–Rényi (ER) model:**
-
-  ```
-  Bell_Pair_Sources_fix_P_ER.py
-  ```
-
-* **Barabási–Albert (BA) model:**
-
-  ```
-  Bell_Pair_Sources_fix_C_BA.py
-  ```
-
----
-
-## ⭐ Additional Study: Bell Pairs vs GHZ States
-
-We also investigate the use of Bell pairs and GHZ states as building blocks in a star topology.
-
-This analysis is implemented in:
-
+```bash
+python Bell_Pair_Sources_fix_P_ER.py
 ```
-Bell_Pair_vs_GHZ_Building_Block.py
+
+### Barabási–Albert (BA)
+
+```bash
+python Bell_Pair_Sources_fix_C_BA.py
 ```
 
 ---
 
-If you want, I can also add badges, installation steps (`pip install`), or a cleaner project structure section.
+## ⭐ Bell Pairs vs GHZ States
+
+Study of Bell pairs and GHZ states as building blocks in a **star topology**:
+
+```bash
+python Bell_Pair_vs_GHZ_Building_Block.py
+```
+
+---
+
+## 📖 Citation
+
+If you use this code in your research, please cite the following paper:
+
+```bibtex
+@article{yourkey202Xgraphstate,
+  title   = {Title of the Paper},
+  author  = {Author One and Author Two and Author Three},
+  journal = {arXiv preprint arXiv:xx},
+  year    = {202X},
+  url     = {https://arxiv.org/abs/xx}
+}
+```
+
+---
+
+## 📝 BibTeX (Copy-Friendly)
+
+You can also copy it directly:
+
+```
+@misc{chelluri2025resourcecomputationallyefficientprotocolmultipartite,
+      title={A resource- and computationally-efficient protocol for multipartite entanglement distribution in Bell-pair networks}, 
+      author={S. Siddardha Chelluri and Sumeet Khatri and Peter van Loock},
+      year={2025},
+      eprint={2412.04252},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2412.04252}, 
+}
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and suggestions are welcome!
+Feel free to open a pull request or issue.
+
+---
+
