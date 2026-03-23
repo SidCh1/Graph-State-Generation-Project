@@ -122,25 +122,7 @@ python Bell_Pair_vs_GHZ_Building_Block.py
 If you use this code in your research, please cite the following paper:
 
 ```bibtex
-@misc{chelluri2025resourcecomputationallyefficientprotocolmultipartite,
-      title={A resource- and computationally-efficient protocol for multipartite entanglement distribution in Bell-pair networks}, 
-      author={S. Siddardha Chelluri and Sumeet Khatri and Peter van Loock},
-      year={2025},
-      eprint={2412.04252},
-      archivePrefix={arXiv},
-      primaryClass={quant-ph},
-      url={https://arxiv.org/abs/2412.04252}, 
-}
-```
-
----
-
-## 📝 BibTeX (Copy-Friendly)
-
-You can also copy it directly:
-
-```
-@misc{chelluri2025resourcecomputationallyefficientprotocolmultipartite,
+@misc{CKVL2024,
       title={A resource- and computationally-efficient protocol for multipartite entanglement distribution in Bell-pair networks}, 
       author={S. Siddardha Chelluri and Sumeet Khatri and Peter van Loock},
       year={2025},
