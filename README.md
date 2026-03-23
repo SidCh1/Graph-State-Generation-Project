@@ -45,8 +45,8 @@ pip install networkx matplotlib numpy jupyter
 .
 ├── calculate_gates_bell_paris_main.py   # Core functions for data & plots
 ├── Run_statistics.ipynb                 # Main notebook to generate results
-├── Bell_Pair_Sources_fix_P_ER.py        # ER (Erdős–Rényi) simulations
-├── Bell_Pair_Sources_fix_C_BA.py        # BA (Barabási–Albert) simulations
+├── Bell_Pair_Sources_fix_P_ER.py        # ER (Erdős–Rényi) simulations for Bell-pair sources
+├── Bell_Pair_Sources_fix_C_BA.py        # BA (Barabási–Albert) simulations for Bell-pair sources
 ├── Bell_Pair_vs_GHZ_Building_Block.py   # Bell vs GHZ (star topology)
 └── README.md
 ```
@@ -69,7 +69,7 @@ jupyter notebook Run_statistics.ipynb
 
 This will:
 
-* Generate all datasets
+* Generate all datasets except for Bell-pair sources.
 * Reproduce figures from the paper
 
 ---
@@ -84,13 +84,14 @@ calculate_gates_bell_paris_main.py
 
 Provides functions to:
 
-* Perform gate analysis
-* Simulate Bell pair generation
-* Generate plots used in the paper
+* Perform gate and Bell-pair analysis
+* Generate plots used in the paper 
 
 ---
 
 ## 🔗 Bell Pair Source Simulations
+
+Perform Bell-pair sources analysis:
 
 ### Erdős–Rényi (ER)
 
